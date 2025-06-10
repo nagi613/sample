@@ -7,40 +7,114 @@
   <style>
     body {
       margin: 0;
-      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-      background-color: #f4f6f9;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      background-color: #f0f8ff;
       color: #2c3e50;
     }
 
-    /* Hero section */
-    .hero {
-      position: relative;
-      width: 100%;
-      height: 50vh;
-      background-image: url("./image/フェスふぉと.jpg");
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    header {
+      background: linear-gradient(135deg, #74b9ff, #a29bfe);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    .hero-text {
-      color: white;
-      font-size: 2.8rem;
-      letter-spacing: 0.3rem;
-      font-weight: bold;
-      background: rgba(44, 62, 80, 0.6); /* ネイビーの半透明背景 */
-      padding: 1rem 2rem;
-      border-radius: 12px;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
     }
 
     main {
-      max-width: 850px;
+      max-width: 800px;
       margin: 2rem auto;
-      background-color: #ffff
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
 
+    h2 {
+      color: #74b9ff;
+      border-bottom: 2px dashed #74b9ff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: "💠";
+      padding-left: 1.5rem;
+      line-height: 1.8;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    img {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #95a5a6;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1> 私の自己紹介と趣味 </h1>
+  <p>ちょっとだけ、私のことを知ってください！</p>
+</header>
+
+<main>
+  <section>
+    <h2>自己紹介</h2>
+    <p>
+      はじめまして、天池渚（あまいけ なぎさ）です。<br>
+      富山商業高校の情報処理科を卒業し、現在は情報系の専門学校に通っています。<br>
+      将来はIT業界で活躍し、周りから信頼されるエンジニアになるのが目標です。<br>
+      何事にも前向きにチャレンジするのが私のモットーです。
+    </p>
+  </section>
+
+  <section>
+    <h2>趣味一覧</h2>
+    <ul>
+      <li>映画鑑賞（特に洋画のホラー映画が好き）</li>
+      <li>フェス参戦（ロックバンド大好き！）</li>
+      <li>プログラミング（Webアプリ開発に挑戦中）</li>
+      <li>ラジオ制作（学校のラジオ局で活動中）</li>
+    </ul>
+    <div style="text-align: center;">
+      <img src="./image/へレディタリー.png" alt="ホラー映画のポスター" width="280">
+      <img src="./image/フェスふぉと.jpg" alt="音楽フェスの様子" width="280">
+    </div>
+  </section>
+
+  <section>
+    <h2>ひとこと</h2>
+    <p>
+      趣味を通して人とつながれるのが嬉しいです！<br>
+      好きなことを大切に、楽しく成長していきたいと思っています✨
+    </p>
+  </section>
+</main>
+
+<footer>
   &copy; 2025 Nagisa's Hobby Page
 </footer>
 
